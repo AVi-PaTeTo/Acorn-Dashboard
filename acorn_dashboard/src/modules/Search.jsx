@@ -3,7 +3,7 @@ export default function Search() {
     <div className="flex justify-between mb-6">
 
         {/* Search bar  */}
-        <div className="flex items-center px-4 lg:w-112.5 bg-s-white rounded-3xl gap-2">
+        <div className="flex items-center px-4 lg:w-[450px] bg-s-white rounded-3xl gap-2">
             <svg
             className="fill-none stroke-black/50"
             xmlns="http://www.w3.org/2000/svg"

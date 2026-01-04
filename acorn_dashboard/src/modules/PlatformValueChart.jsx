@@ -18,16 +18,16 @@ export default function PlatformValueChart(){
                                 </span>
                             </div>
                         </div>
-                        <div className='flex items-center gap-1 py-0.5 px-1 bg-white rounded-2xl font-bold text-[.9rem]'>
+                        <div className='flex items-center gap-1 py-[2px] px-1 bg-white rounded-2xl font-bold text-[.9rem]'>
                             <span 
                                 onClick={() => setActive('Revenue')} 
-                                className={`py-1 px-2.5 rounded-xl transition-colors duration-200 ${active == 'Revenue'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>Revenue</span>
+                                className={`py-1 px-[10px] rounded-xl transition-colors duration-200 ${active == 'Revenue'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>Revenue</span>
                             <span 
                                 onClick={() => setActive('Leads')} 
-                                className={`py-1 px-2.5 rounded-xl transition-colors duration-200 ${active == 'Leads'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>Leads</span>
+                                className={`py-1 px-[10px] rounded-xl transition-colors duration-200 ${active == 'Leads'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>Leads</span>
                             <span 
                                 onClick={() => setActive('W/L')} 
-                                className={`py-1 px-2.5 rounded-xl transition-colors duration-200 ${active == 'W/L'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>W/L</span>
+                                className={`py-1 px-[10px] rounded-xl transition-colors duration-200 ${active == 'W/L'? 'bg-dark text-white':'bg-gray-200/70 text-dark'}`}>W/L</span>
                         </div>
                     </div>
                     <div className='flex h-full'>
@@ -63,24 +63,24 @@ export default function PlatformValueChart(){
                                 <span className='w-full h-full border-t border-t-white text-[.7rem] text-right font-semibold text-gray-400'> $7,500</span>
                                 <span className='w-full h-full border-t border-t-white text-[.7rem] text-right font-semibold text-gray-400'> $4,000</span>
                                 <span className='w-full h-full border-t border-t-white'></span>
-                                <div className='absolute flex justify-between gap-2.5 inset-0 pl-2 pr-12'>
+                                <div className='absolute flex justify-between gap-[10px] inset-0 pl-2 pr-12'>
                                     <span className=' flex-1 flex flex-col'>
                                         <div className='flex gap-1 h-full items-end justify-center'>
                                             <span className='flex-1 bg-diagonal rounded-lg h-[45%] max-w-10 relative'>
                                                 <div className='absolute -top-6 bg-accent text-white px-1 pt-0.5 rounded-md left-1/2 -translate-x-1/2 text-[.7rem] font-bold' >
                                                     $6,901
                                                 </div>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/11/9b/e3/119be3e55baf402c4a4b095bce132364.jpg" alt="" />
                                                 </div>
                                             </span>
                                             <span className='flex-1 bg-gray-300 rounded-lg h-[35%] max-w-10 relative'>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/88/f4/32/88f43213cdad2adcea4db2e3c4168ba7.jpg" alt="" />
                                                 </div>
                                             </span>
                                             <span className='flex-1 bg-gray-300 rounded-lg h-[20%] max-w-10 relative'>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/30/26/55/302655f823b3edc923b26c4a1e52b6b5.jpg" alt="" />
                                                 </div>
                                             </span>
@@ -90,20 +90,20 @@ export default function PlatformValueChart(){
                                     <span className=' flex-1 flex flex-col'>
                                     <div className='flex gap-1 h-full items-end justify-center'>
                                         <span className='flex-1 bg-diagonal rounded-lg h-[78%] max-w-10 relative'>
-                                            <div className='absolute -top-6 bg-accent text-white px-1 pt-0.5 rounded-md left-1/2 -translate-x-1/2 text-[.7rem] font-bold' >
+                                            <div className='absolute -top-6 bg-accent text-white px-1 pt-[2px] rounded-md left-1/2 -translate-x-1/2 text-[.7rem] font-bold' >
                                                 $11,035
                                             </div>
-                                            <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                            <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                 <img src="https://i.pinimg.com/1200x/11/9b/e3/119be3e55baf402c4a4b095bce132364.jpg" alt="" />
                                             </div>
                                         </span>
                                         <span className='flex-1 bg-gray-300 rounded-lg h-[55%] max-w-10 relative'>
-                                            <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                            <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                 <img src="https://i.pinimg.com/1200x/88/f4/32/88f43213cdad2adcea4db2e3c4168ba7.jpg" alt="" />
                                             </div>
                                         </span>
                                         <span className='flex-1 bg-gray-300 rounded-lg h-[40%] max-w-10 relative'>
-                                            <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                            <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                 <img src="https://i.pinimg.com/1200x/30/26/55/302655f823b3edc923b26c4a1e52b6b5.jpg" alt="" />
                                             </div>
                                         </span>
@@ -116,17 +116,17 @@ export default function PlatformValueChart(){
                                                 <div className='absolute -top-6 bg-accent text-white px-1 pt-0.5 rounded-md left-1/2 -translate-x-1/2 text-[.7rem] font-bold' >
                                                     $9,288
                                                 </div>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/11/9b/e3/119be3e55baf402c4a4b095bce132364.jpg" alt="" />
                                                 </div>
                                             </span>
                                             <span className='flex-1 bg-gray-300 rounded-lg h-[44%] max-w-10 relative'>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/88/f4/32/88f43213cdad2adcea4db2e3c4168ba7.jpg" alt="" />
                                                 </div>
                                             </span>
                                             <span className='flex-1 bg-gray-300 rounded-lg h-[52%] max-w-10 relative'>
-                                                <div className=' h-4.5 w-4.5 rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
+                                                <div className=' h-[18px] w-[18px] rounded-4xl overflow-hidden absolute -bottom-2 left-1/2 -translate-x-1/2' >
                                                     <img src="https://i.pinimg.com/1200x/30/26/55/302655f823b3edc923b26c4a1e52b6b5.jpg" alt="" />
                                                 </div>
                                             </span>

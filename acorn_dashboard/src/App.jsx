@@ -11,9 +11,9 @@ import PerformanceInsights from './modules/PerformanceInsights'
 function App() {
 
   return (
-    <div className='grid grid-cols-[70px_min-content_1fr] h-full relative hover:cursor-default'>
+    <div className='grid grid-cols-[70px_min-content_1fr] h-full relative hover:cursor-default font-nunito bg-[#F3EFEF]'>
       <Side />
-      <div className='col-start-2 col-end-3 w-52 2xl:w-56 h-full'>
+      <div className='col-start-2 col-end-3 w-[208px] 2xl:w-[224px] h-full'>
         <NavPanel />
       </div>
 

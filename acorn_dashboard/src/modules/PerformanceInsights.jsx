@@ -25,16 +25,16 @@ export default function PerformanceInsights(){
                             $209,633
                         </span>
                         <span className='flex gap-1 font-semibold'>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>41</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>118</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>41</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>118</span>
                         </span>
                         <span>
                             0.84
                         </span>
                         <span className='flex items-center gap-1 font-semibold'>
                             <span>31%</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>12</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>29</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>12</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>29</span>
                         </span>
                     </div>
 
@@ -51,16 +51,16 @@ export default function PerformanceInsights(){
                             $156,841
                             </span>
                             <span className='flex gap-1 font-semibold'>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>54</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>103</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>54</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>103</span>
                             </span>
                             <span className=''>
                             0.89
                             </span>
                             <span className='flex items-center gap-1 font-semibold'>
                             <span>39%</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>21</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>33</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>21</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>33</span>
                             </span>
                         </div>
                         <DetailedIndividualInsights />
@@ -78,16 +78,16 @@ export default function PerformanceInsights(){
                             $117,115
                         </span>
                         <span className='flex gap-1 font-semibold'>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>22</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>84</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>22</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>84</span>
                         </span>
                         <span>
                             0.79
                         </span>
                         <span className='flex items-center gap-1 font-semibold'>
                             <span>32%</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-dark/90 text-white'>7</span>
-                            <span className='py-0.5 px-2 rounded-2xl bg-gray-300'>15</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-dark/90 text-white'>7</span>
+                            <span className='py-[2px] px-2 rounded-2xl bg-gray-300'>15</span>
                         </span>
                     </div>
                 </div>

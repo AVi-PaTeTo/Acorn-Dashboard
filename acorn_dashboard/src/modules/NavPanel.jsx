@@ -2,7 +2,7 @@ const NavPanel = () => {
 
 
   return (
-    <div className="nav-panel left-17.5 flex flex-col text-dark pl-4 py-4 2xl:pl-5 2xl:py-5 w-48 h-screen fixed">
+    <div className="nav-panel left-[70px] flex flex-col text-dark pl-4 py-4 2xl:pl-5 2xl:py-5 w-48 h-screen fixed">
         <div className="flex flex-col h-full">
             <div className="flex  mb-6 py-2 items-center">
                 <h1 className="font-bold text-[18px]">
@@ -39,7 +39,7 @@ const NavPanel = () => {
                                     <li><span>Cargo2go</span></li>
                                     <li className="flex justify-between items-center">
                                         <span>Cloudz3r</span>
-                                        <span className="bg-accent text-white px-1.5 pt-px rounded-sm flex items-center text-[.7rem] h-4.5">2</span>
+                                        <span className="bg-accent text-white px-1.5 pt-px rounded-sm flex items-center text-[.7rem] h-[18px]">2</span>
                                     </li>
                                     <li><span>Idioma</span></li>
                                     <li><span>Syllables</span></li>
@@ -74,7 +74,7 @@ const NavPanel = () => {
                                     <li><span className="text-accent">New report</span></li>
                                     <li className="flex justify-between items-center">
                                         <span>Analytics</span>
-                                        <span className="bg-accent text-white px-1.5 pt-px rounded-sm flex items-center text-[.7rem] h-4.5">7</span>
+                                        <span className="bg-accent text-white px-1.5 pt-px rounded-sm flex items-center text-[.7rem] h-[18px]">7</span>
                                     </li>
                                 </ul>
                             </li>
